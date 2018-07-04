@@ -15,7 +15,7 @@ a{
     overflow-y: auto;
 
 }
-li{
+#navbar ul li{
     list-style: none;
 }
 #navbar li{
@@ -49,6 +49,19 @@ li{
 
 header{
     font-size: 24px;
+    font-weight: bold;
+}
+
+code{
+    display: block;
+    text-align: left;
+    background-color: #f8f6f6;
+    padding: 4px;
+    border-radius: 2px;
+    word-break: normal;
+    word-wrap: normal;
+    white-space: pre;
+    position: relative;
 }
 
 @media(max-width: 750px){
